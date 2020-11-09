@@ -38,7 +38,7 @@ async def _8ball(ctx, *, question):
 @client.command()
 async def staty(ctx):
 	file=open("stat.txt")
-
+	
 
 @client.command()
 async def q(ctx):
@@ -53,8 +53,4 @@ if __name__ == "__main__":
 		client.load_extension(cog)
 		print(f"{cog} has been sucessfully loaded.")
 
-with open("xrckwo.0", "r", encoding="utf-8") as f:
-	bottoken = f.read()
-
-
-client.run(bottoken)
+client.run("xd")
